@@ -1,0 +1,111 @@
+.image {
+  width: 70%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+}
+.main {
+  text-align: center;
+}
+
+body {
+  background-color: blueviolet;
+}
+.weathertitle {
+  color: white;
+  font-size: 60px;
+  margin: 0;
+  padding: 0;
+}
+.created {
+  color: white;
+  margin-top: 5px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  color: whitesmoke;
+}
+.started {
+  margin-top: 20px;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.inputs input {
+  font-size: 17px;
+  padding: 10px 40px 10px 5px;
+  border-radius: 20px;
+  border: none;
+}
+.sign {
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: cyan;
+  padding: 5px 20px;
+  margin-top: 20px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.footer span {
+  margin-left: 10px;
+}
+.search i {
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.search input {
+  padding: 5px 0px 5px 10px;
+  width: 220px;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+}
+.img {
+  width: 150px;
+  height: 150px;
+}
+.celsius h1 {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.box {
+  background-color: blue;
+  width: 300px; /* Set the desired width */
+  margin: 0 auto; /* Center the box horizontally */
+  padding: 20px; /* Optional padding */
+  border-radius: 10px; /* Optional border radius for rounded corners */
+  margin-top: 150px;
+}
+
+* {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.started {
+  padding: 5px 20px;
+  border: none;
+  border-radius: 15px;
+  font-size: 20px;
+}
+.footer {
+  margin-top: 20px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
